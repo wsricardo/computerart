@@ -44,7 +44,7 @@ var p = new particle(0, 0, 0.001, "white");
 var ps = []
 
 for ( let i = 0; i < 100; i++ ) 
-	ps.push( new particle(0, 0, 0.008, "white" ) );
+	ps.push( new particle(Math.random()*200, Math.random()*100, Math.random()*0.008, "white" ) );
 
 animate();
 
